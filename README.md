@@ -1,7 +1,7 @@
 # YUNet
 ## About YUNet
 
-YUNet (stands for "You Only Look Once Network") is a deep learning model used for image segmentation tasks. It is an improved version of the popular U-Net model, which was developed for semantic segmentation of medical images.
+YUNet is a deep learning model used for image segmentation tasks. It is an improved version of the popular U-Net model, which was developed for semantic segmentation of medical images.
 
 YUNet introduces a "soft-attention mechanism" to help the model focus on the most important features in an image. This mechanism uses a dense block to produce a weighted sum of the feature maps in the contracting path, which is then concatenated with the feature maps in the expanding path to produce the final output.
 
